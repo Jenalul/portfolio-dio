@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <script src="https://unpkg.com/feather-icons"></script>
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <title>Jean Dias - Portfólio</title>
+    </head>
+    <body>
+        <header>
+            <a class="logo" href="index.html">JD.</a>
+
+            <nav class="nav-links">
+                <a href="#about">Sobre</a>
+                <a href="#projects">Projetos</a>
+                <a href="#contact">Contato</a>
+            </nav>
+
+            <button id="theme-toggle">
+                <i id="moon-icon" data-feather="moon"></i>
+                <i id="sun-icon" data-feather="sun"></i>
+            </button>
+        </header>
+
+        <main>
+            <!-- ===== Seção Principal (Hero) ===== -->
+            <section id="hero">
+                <h1>Olá, eu sou <span>Jean Dias</span></h1>
+                <p>
+                    Sou um Desenvolvedor Web apaixonado por criar experiências
+                    digitais incríveis e funcionais.
+                </p>
+                <a class="button-link" href="#projects">Veja meus projetos</a>
+            </section>
+
+            <!-- ===== ABOUT ===== -->
+            <section id="about">
+                <h2>Sobre Mim</h2>
+                <div class="about-wrapper">
+                    <div class="profile-image">
+                        <img
+                            src="assets/images/foto.png"
+                            alt="Foto de Jean Dias"
+                        />
+                    </div>
+                    <div class="about-description">
+                        <p>
+                            Me chamo Jean, tenho 25 anos e moro em Sorocaba, SP.
+                            Atualmente, estou mergulhado no universo da
+                            Engenharia de Software na Uninter, mas minha paixão
+                            por tecnologia vai muito além da sala de aula.
+                        </p>
+                        <p>
+                            Sou fascinado em dar vida a ideias através do
+                            desenvolvimento de aplicativos e encontrar soluções
+                            criativas para os mais diversos desafios.
+                        </p>
+                        <h3>Minhas Habilidades</h3>
+                        <div class="technologies">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>TypeScript</span>
+                            <span>React</span>
+                            <span>NodeJS</span>
+                            <span>Tailwind CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== PROJECTS ===== -->
+            <section id="projects">
+                <h2>Meus Projetos</h2>
+                <div class="cards-container">
+                    <!-- Card do Projeto 1 -->
+                    <div class="card">
+                        <img
+                            src="assets/images/rest-countries-api-with-color-theme-switcher-screenshot.png"
+                            alt="REST Countries API with color theme switcher"
+                        />
+                        <div class="project-description">
+                            <h3>
+                                REST Countries API with color theme switcher
+                            </h3>
+                            <p>
+                                Interface para explorar dados de países,
+                                permitindo busca e filtragem por região.
+                                Implementado com um alternador de tema
+                                (light/dark) para melhor experiência do usuário.
+                            </p>
+                            <div class="technologies">
+                                <strong>Tecnologias:</strong>
+                                <span>React</span>
+                                <span>TypeScript</span>
+                                <span>Tailwind CSS</span>
+                                <span>REST API</span>
+                            </div>
+                            <div class="project-links">
+                                <a
+                                    href="https://rest-countries-api-with-color-theme-switcher-weld.vercel.app/"
+                                    target="_blank"
+                                >
+                                    Ver Demo
+                                </a>
+                                <a
+                                    href="https://github.com/JenaCarry/rest-countries-api-with-color-theme-switcher"
+                                    target="_blank"
+                                >
+                                    Código Fonte
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card do Projeto 2 -->
+                    <div class="card">
+                        <img
+                            src="assets/images/product-list-with-cart-screenshot.png"
+                            alt="Product list with cart"
+                        />
+                        <div class="project-description">
+                            <h3>Product list with cart</h3>
+                            <p>
+                                Aplicação que demonstra a lógica de um carrinho
+                                de compras. As funcionalidades incluem
+                                adicionar/remover itens, ajustar quantidades e
+                                visualizar um modal de confirmação do pedido.
+                            </p>
+                            <div class="technologies">
+                                <strong>Tecnologias:</strong>
+                                <span>React</span>
+                                <span>TypeScript</span>
+                                <span>Tailwind CSS</span>
+                            </div>
+                            <div class="project-links">
+                                <a
+                                    href="https://product-list-with-cart-lyart.vercel.app/"
+                                    target="_blank"
+                                >
+                                    Ver Demo
+                                </a>
+                                <a
+                                    href="https://github.com/JenaCarry/product-list-with-cart"
+                                    target="_blank"
+                                >
+                                    Código Fonte
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card do Projeto 3 -->
+                    <div class="card">
+                        <img
+                            src="assets/images/todo-app-screenshot.jpg"
+                            alt="Todo App"
+                        />
+                        <div class="project-description">
+                            <h3>Todo App</h3>
+                            <p>
+                                Aplicação to-do com design responsivo, tema
+                                claro/escuro e funcionalidade de drag-and-drop
+                                para reordenar tarefas. Os dados persistem no
+                                navegador através do local storage.
+                            </p>
+                            <div class="technologies">
+                                <strong>Tecnologias:</strong>
+                                <span>React</span>
+                                <span>Next.js</span>
+                                <span>TypeScript</span>
+                                <span>Tailwind CSS</span>
+                                <span>Dnd-Kit</span>
+                            </div>
+                            <div class="project-links">
+                                <a
+                                    href="https://todo-app-jenacarry.vercel.app/"
+                                    target="_blank"
+                                >
+                                    Ver Demo
+                                </a>
+                                <a
+                                    href="https://github.com/JenaCarry/todo-app"
+                                    target="_blank"
+                                >
+                                    Código Fonte
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== CONTACT ===== -->
+            <section id="contact">
+                <h2>Vamos Conversar!</h2>
+                <p>
+                    Estou sempre aberto a novas oportunidades e colaborações.
+                    Sinta-se à vontade para entrar em contato.
+                </p>
+                <a
+                    class="button-link"
+                    href="https://www.linkedin.com/in/jean-h-dias/"
+                    target="_blank"
+                >
+                    Enviar E-mail
+                </a>
+                <div class="contact-links">
+                    <a href="#"><i data-feather="github"></i></a>
+                    <a href="#"><i data-feather="linkedin"></i></a>
+                    <a href="#"><i data-feather="twitter"></i></a>
+                </div>
+            </section>
+        </main>
+
+        <!-- ===== FOOTER ===== -->
+        <footer>
+            <div>
+                <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+
+        <script src="assets/js/index.js"></script>
+    </body>
+</html>
