@@ -219,6 +219,7 @@ header {
     flex-wrap: wrap;
     align-items: center;
     gap: 0.5rem;
+    margin-bottom: 1.25rem;
 }
 
 .technologies span {
@@ -247,6 +248,9 @@ header {
     overflow: hidden;
     box-shadow: 0 10px 15px -3px rgb(0, 0, 0, 0.1);
     transition: transform 0.3s;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .card:hover {
@@ -261,6 +265,10 @@ header {
 
 .cards-container .project-description {
     padding: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .cards-container .project-description h3 {
@@ -275,7 +283,7 @@ header {
 .project-description .project-links {
     display: flex;
     gap: 1rem;
-    margin-top: 1rem;
+    margin-top: auto;
 }
 
 .project-description .project-links a:hover {
